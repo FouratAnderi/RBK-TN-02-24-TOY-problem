@@ -20,9 +20,8 @@ const firstNonRepeatedCharacter = function (string) {
        c+= 1
        }
       }
-   if (ctr < 2) {
+   if (c < 2) {
    return  result = arr[i]
      }
    }
-  
    }
