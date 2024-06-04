@@ -10,5 +10,19 @@
  * @returns {String}
  */
 const firstNonRepeatedCharacter = function (string) {
-  // TODO: your solution here
-}
+    var arr = string.split('')
+    var result = ''
+    var c = 0; 
+     for (var i = 0; i < arr.length; i++) {
+      c = 0;
+     for (var j = 0; j < arr.length; j++) {
+     if (arr[i] === arr[j]) {
+       c+= 1
+       }
+      }
+   if (ctr < 2) {
+   return  result = arr[i]
+     }
+   }
+  
+   }
